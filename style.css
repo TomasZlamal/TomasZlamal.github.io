@@ -81,7 +81,7 @@ button {
 }
 .hero {
     height: 100vh;
-    background: url("src/hero_background.png");
+    background: url("src/hero_background.jpg");
    width: 100%; 
    background-size: cover;
    background-repeat: no-repeat;
