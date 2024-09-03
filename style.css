@@ -117,3 +117,35 @@ button {
     background-color: var(--white);
     height: 30vw;
 }
+@media (max-width: 500px) {
+    .hero {
+        height: 50vh;
+    }
+}
+@media (min-width: 2000px) {
+    .hero .triangle {
+        transform: skewY(-4deg);
+    }
+    h1 {
+        font-size: 200px;
+    }
+    h2 {
+        font-size: 140px;
+    }
+    h3 {
+        font-size: 100px;
+    }
+    h4 {
+        font-size: 60px;
+    }
+    .burger-bar {
+        height: 200px;
+        width: 200px;
+    }
+    .menu-items {
+        height: 200px;
+    }
+    .menu-items h4 {
+        margin: 0 100px;
+    }
+}
