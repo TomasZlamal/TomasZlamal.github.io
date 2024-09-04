@@ -234,3 +234,6 @@ footer h3 {
 footer *:not(h3, .contacts) {
     margin-left: 10vw;
 }
+.discover button {
+    cursor: pointer;
+}
