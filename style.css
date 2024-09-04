@@ -79,6 +79,18 @@ button {
     margin: 5%;
     background-color: var(--black);
 }
+.bar {
+transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
+}
+.a {
+    transform: translateY(22px)rotate(45deg) ;
+}
+.b {
+    transform: rotate(-45deg);
+}
+.c {
+    opacity: 0;
+}
 .hero {
     height: 100vh;
     background: url("src/hero_background.jpg");
