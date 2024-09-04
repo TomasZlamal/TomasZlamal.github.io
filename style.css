@@ -49,6 +49,10 @@ button {
     font-weight: 800;
     text-transform: uppercase;
 }
+p {
+    font-size: 50px;
+    font-weight: 700;
+}
 .menu-items {
     width: 0;
     display: flex;
@@ -127,7 +131,10 @@ transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
 
 .intro {
     background-color: var(--white);
-    height: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20vh 0;
+
 }
 @media (max-width: 500px) {
     .hero {
@@ -163,4 +170,67 @@ transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
     .menu-items h4 {
         margin: 0 100px;
     }
+}
+.infographic {
+    width: 25%;
+}
+.infographic h3 {
+    color: var(--red);
+    text-align: center;
+}
+.infographic p {
+    text-align: center;
+}
+.style {
+    background: var(--red);
+    color: var(--white);
+    text-align: center;
+    padding: 10vh 0px;
+}
+.checkmarks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.checkmark-element {
+    padding: 10vh 6vh;
+    display: flex;
+    align-items: center;
+}
+.checkmark-element img {
+    margin-right: 10px;
+}
+.who-do-we, .visit-us {
+    text-align: center;
+}
+.who-do-we {
+    padding: 10vh 0;
+}
+.client-type {
+    color: var(--red);
+    padding-top: 5vh;
+}
+.even-more {
+    padding-top: 5vh;
+}
+
+
+.visit-us {
+    background: var(--red);
+    color: var(--white);
+    padding: 10vh 0;
+}
+.add-on {
+    font-size: 20px;
+}
+footer {
+    background: var(--black);
+    color: var(--white);
+    padding-top: 10vh;
+}
+footer h3 {
+    text-align: center;
+}
+footer *:not(h3, .contacts) {
+    margin-left: 10vw;
 }
