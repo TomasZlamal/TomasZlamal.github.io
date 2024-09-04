@@ -138,6 +138,9 @@ transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
     .hero .triangle {
         transform: skewY(-4deg);
     }
+    .a {
+        transform: translateY(37px) rotate(45deg);
+    }
     h1 {
         font-size: 200px;
     }
