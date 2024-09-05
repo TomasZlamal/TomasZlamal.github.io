@@ -127,50 +127,6 @@ transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
     position: absolute;
     bottom: -190px;
 }
-
-
-.intro {
-    background-color: var(--white);
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20vh 0;
-
-}
-@media (max-width: 500px) {
-    .hero {
-        height: 50vh;
-    }
-}
-@media (min-width: 2000px) {
-    .hero .triangle {
-        transform: skewY(-4deg);
-    }
-    .a {
-        transform: translateY(37px) rotate(45deg);
-    }
-    h1 {
-        font-size: 200px;
-    }
-    h2 {
-        font-size: 140px;
-    }
-    h3 {
-        font-size: 100px;
-    }
-    h4 {
-        font-size: 60px;
-    }
-    .burger-bar {
-        height: 200px;
-        width: 200px;
-    }
-    .menu-items {
-        height: 200px;
-    }
-    .menu-items h4 {
-        margin: 0 100px;
-    }
-}
 .infographic {
     width: 25%;
 }
@@ -237,3 +193,108 @@ footer *:not(h3, .contacts) {
 .discover button {
     cursor: pointer;
 }
+
+.intro {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20vh 0;
+
+}
+@media (max-width: 800px) {
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 70px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 35px;
+    }
+    .hero-content h1 {
+        margin-bottom: -20px;
+    }
+    .hero {
+        height: 70vh;
+    }
+    iframe {
+        width: 70vw;
+        height: auto;
+    }
+    .intro {
+        padding: 10vh 0;
+        flex-wrap: wrap;
+    }
+    .intro * {
+        min-width: 51vw;
+    }
+    .burger-bar {
+        width: 70px;
+        height: 70px;
+    }
+    .menu-items {
+        height: 70px;
+    }
+    .menu-items h4 {
+        margin: 0 10px;
+        font-size: 25px;
+    }
+    .a {
+        transform: translateY(14px) rotate(45deg);
+    }
+    .infographic {
+        margin-bottom: 10vh;
+    }
+    .style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .style p {
+        inline-size: 60vw;
+    }
+    .checkmark-element {
+        padding: 5vh 6vh;
+    }
+    button {
+        font-size: 25px;
+        border-radius: 14px;
+    }
+}
+@media (min-width: 2000px) {
+    .hero .triangle {
+        transform: skewY(-4deg);
+    }
+    .a {
+        transform: translateY(37px) rotate(45deg);
+    }
+    h1 {
+        font-size: 200px;
+    }
+    h2 {
+        font-size: 140px;
+    }
+    h3 {
+        font-size: 100px;
+    }
+    h4 {
+        font-size: 60px;
+    }
+    .burger-bar {
+        height: 200px;
+        width: 200px;
+    }
+    .menu-items {
+        height: 200px;
+    }
+    .menu-items h4 {
+        margin: 0 100px;
+    }
+}
+
